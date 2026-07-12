@@ -32,6 +32,7 @@ st.write("Deja que la lógica decida por ti.")
 st.write("¿Quieres una recomendación?")
 st.write("seleciona...")
 opcion = st.radio(
+    "",
     ( "Sí", "Tal vez", "No")
 )
 
