@@ -29,9 +29,10 @@ st.write("Deja que la lógica decida por ti.")
 
 # 4. Cambiamos el input() de texto por botones de opción (Radio Buttons)
 # Así el usuario no escribe disparates y controlamos la entrada.
+st.write("¿Quieres una recomendación?")
+st.write("seleciona...")
 opcion = st.radio(
-    "¿Quieres una recomendación?",
-    ("Selecciona...", "Sí", "Tal vez", "No")
+    ( "Sí", "Tal vez", "No")
 )
 
 # 5. La estructura lógica (Tu IF/ELIF/ELSE de antes)
